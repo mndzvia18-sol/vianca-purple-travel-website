@@ -1,0 +1,399 @@
+
+
+<html>
+
+<head>
+<title>RESERVATION FORM</title>
+</head>
+
+<body background="bodybg2.png">
+
+<form>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+
+<table width="700" cellpadding="0" cellspacing="0" border="0">
+
+
+<font face="Arial" color="#6A1B9A" size="7" color="#FFFFFF">
+<b>Purple Paradise Reservation Form</b>
+</font>
+</td>
+
+
+<tr><td height="20"></td></tr>
+
+<tr>
+<td bgcolor="#7B1FA2">
+<font face="Arial" size="5" color="white">
+<b>&nbsp;Reservation steps</b>
+  
+  <ol>
+    <li>Fill out the reservation form.</li>
+    <li>Review your information carefully.</li>
+    <li>Agree to the reservation policy.</li>
+    <li>Click the "Submit" button.</li>
+</ol>
+   
+</font>
+</td>
+</tr>  
+  
+ <tr><td height="15"></td></tr>
+
+  
+  
+<tr>
+<td bgcolor="#8E44AD">
+<font face="Arial" size="5" color="white">
+<b>&nbsp;Personal Information</b>
+</font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+
+<table width="100%" cellpadding="8" cellspacing="0" border="0">
+
+<tr>
+
+<td width="50%">
+
+<font face="Arial" size="4"><b>First Name:</b></font><br>
+<input type="text" name="firstname" placeholder="Enter first name" size="30"><br><br>
+
+<font face="Arial" size="4"><b>Last Name:</b></font><br>
+<input type="text" name="lastname" placeholder="Enter last name" size="30"><br><br>
+
+<font face="Arial" size="4"><b>Age:</b></font><br>
+<input type="number" name="age" min="1" max="100" size="30"><br><br>
+
+<font face="Arial" size="4"><b>Emergency Contact:</b></font><br>
+<input type="text" name="emergency" placeholder="Enter emergency number" size="30">
+
+</td>
+
+<td width="50%">
+
+<font face="Arial" size="4"><b>Email:</b></font><br>
+<input type="email" name="email" placeholder="example@gmail.com" size="30"><br><br>
+
+<font face="Arial" size="4"><b>Phone Number:</b></font><br>
+<input type="text" name="phone" placeholder="+63xxxxxxxxxx" size="30"><br><br>
+
+<font face="Arial" size="4"><b>Sex:</b></font><br>
+<input type="radio" name="sex" value="Male"> Male
+&nbsp;&nbsp;
+<input type="radio" name="sex" value="Female"> Female<br><br>
+
+<font face="Arial" size="4"><b>Address:</b></font><br>
+<textarea name="address" rows="3" cols="30" placeholder="Enter complete address"></textarea>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td bgcolor="#7B1FA2">
+<font face="Arial" size="5" color="white">
+<b>&nbsp;Reservation Details</b>
+</font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+
+<table width="100%" cellpadding="8" cellspacing="0" border="0">
+
+<tr>
+
+<td width="50%">
+
+<font face="Arial" size="4"><b>Check-in Date:</b></font><br>
+<input type="date" name="checkin"><br><br>
+
+<font face="Arial" size="4"><b>Check-out Date:</b></font><br>
+<input type="date" name="checkout"><br><br>
+
+<font face="Arial" size="4"><b>Number of Travelers:</b></font><br>
+<input type="number" name="travellers" placeholder="e.g. 4" size="30">
+
+</td>
+
+<td width="50%">
+
+<font face="Arial" size="4"><b>Destination:</b></font><br>
+
+<select name="destination">
+
+<optgroup label="LUZON">
+<option>Banaue Rice Terraces</option>
+<option>Mayon Volcano</option>
+<option>Mount Pinatubo</option>
+<option>Baguio City</option>
+<option>San Juan, La Union</option>
+</optgroup>
+
+<optgroup label="VISAYAS">
+<option>Chocolate Hills</option>
+<option>Boracay Island</option>
+<option>Kawasan Falls</option>
+<option>Siquijor Island</option>
+<option>The Ruins</option>
+</optgroup>
+
+<optgroup label="MINDANAO">
+<option>Siargao Island</option>
+<option>Camiguin Island</option>
+<option>Mount Apo</option>
+<option>Hinatuan Enchanted River</option>
+<option>Britania Islands</option>
+</optgroup>
+
+</select>
+
+<br><br>
+
+<font face="Arial" size="4"><b>Tour Package:</b></font><br>
+
+<select name="package">
+<option>Select Package</option>
+<option>Standard</option>
+<option>Premium</option>
+<option>VIP</option>
+</select>
+
+  <br><br>
+  
+  <font face="Arial" size="4"><b>Room Package:</b></font>
+  <select name="room">
+    <option>Select Room</option>
+    <option>Standard Room</option>
+    <option>Deluxe Room</option>
+    <option>Family Room</option>
+    <option>Suite Room</option>
+  </select>
+  
+  <br><br>
+  <font face="Arial" size="5"><b>Prefered Tour Time:</b></font><br>
+  
+  <input type="radio" name="tourtime"> Morning
+  &nbsp&nbsp
+  <input type="radio" name="tourtime"> Afternoon
+  &nbsp&nbsp
+  <input type="radio" name="tourtime"> Evening
+  
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td bgcolor="#9575CD">
+<font face="Arial" size="5" color="#FFFFFF"><b>&nbsp;Travel Preferences</b></font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+<table width="100%" cellpadding="8" cellspacing="0" border="0">
+
+<tr>
+
+<td width="25%">
+<font face="Arial" size="4"><b>Transportation:</b></font><br><br>
+
+<input type="checkbox" name="vehicle" value="van"> Van<br><br>
+
+<input type="checkbox" name="vehicle" value="bus"> Bus<br><br>
+
+<input type="checkbox" name="vehicle" value="car"> Car
+</td>
+
+<td width="25%">
+<font face="Arial" size="4"><b>Meal Preference:</b></font><br><br>
+
+<input type="checkbox" name="meal" value="regular"> Regular<br><br>
+
+<input type="checkbox" name="meal" value="vegetarian"> Vegetarian<br><br>
+
+<input type="checkbox" name="meal" value="vegan"> Vegan
+</td>
+
+<td width="25%">
+<font face="Arial" size="4"><b>Payment Method:</b></font><br><br>
+
+<input type="checkbox" name="payment" value="cash"> Cash<br><br>
+
+<input type="checkbox" name="payment" value="card"> Credit Card<br><br>
+
+<input type="checkbox" name="payment" value="gcash"> GCash
+</td>
+
+    <td width="25%">
+
+<font face="Arial" size="4"><b>Prefered Activities:</b></font><br><br>
+
+<input type="checkbox" name="activities" value="sightseeing"> Sightseeing <br>
+
+<input type="checkbox" name="activities" value="hiking"> Hiking <br>
+
+<input type="checkbox" name="activities" value="hopping"> Island Hopping
+
+<br>
+
+<input type="checkbox" name="activities" value="swimming"> Swimming <br>
+  
+  
+</tr>
+
+</table>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td bgcolor="#BA68C8">
+<font face="Arial" size="5" color="#FFFFFF"><b>&nbsp;Destination</b></font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+
+<font face="Arial" size="4"><b>Select Island Group:</b></font><br><br>
+
+<select name="island_group">
+<option>Choose Island Group</option>
+<option>LUZON</option>
+<option>VISAYAS</option>
+<option>MINDANAO</option>
+</select>
+
+    <br><br>
+
+    <font face="Arial" size="4"><b>Select Tourist Destination:</b></font><br><br>
+  
+    <select name="destination">
+    
+    <optgroup label="LUZON">
+    <option>Choose Tourist Destination</option>
+    <option>Banaue Rice Terraces</option>
+    <option>Mayon Volcano</option>
+    <option>Mount Pinatubo</option>
+    <option>Baguio City</option>
+    <option>San Juan, La Union</option>
+    </optgroup>
+    
+    <optgroup label="VISAYAS">
+    <option>Chocolate Hills</option>
+    <option>Boracay Island</option>
+    <option>Kawasan Falls</option>
+    <option>Siquijor Island</option>
+    <option>The Ruins</option>
+    </optgroup>
+    
+<optgroup label="MINDANAO">
+<option>Siargao Island</option>
+<option>Camiguin Island</option>
+<option>Mount Apo</option>
+<option>Hinatuan River</option>
+<option>Britania Island</option>
+      
+</optgroup>
+    
+</select>
+</td>
+</tr>
+  
+  <tr><td height="15"></td></tr>
+  
+  <tr>
+    <td bgcolor="#8E44AD">
+      <font face="Arial" size="5" color="#FFFFFF"><b>&nbspBooking Policy</b></font>
+    </td>
+  </tr>
+  
+  <tr><td height="15"></td></tr>
+  
+  <tr>
+  <td>
+    <font face="Arial" size="3">
+  <ul type="square">    
+    <li>All information provided must be accurate.</li> <br><br>
+<li> Cancellation must be made atleast<b> 48 Hours</b> before the scheduled trip.</li><br><br>
+<li> Late arrivals or no show may result in cancellation without refund.</li><br><br>
+<li> Please bring and present a valid ID upon the arrival.</li>
+</font></td></tr></ul>
+
+  
+ <tr><td height="20"></td></tr>
+  <tr>
+    <td bgcolor="#AB47BC">
+      <font face="Arial" size="5" color="#FFFFFF"><b>&nbspTerms And Agreements</b></font>
+    </td></tr>
+  
+  <tr><td height="15"></td></tr>
+  <tr>
+  <td>
+      
+    <input type="checkbox" name="agree">
+    
+    <font face="Arial" size="4">
+      
+      I have read and understood the reservation policy.
+     I agree to follow the terms and conditions and iconfirm that all the information
+      i provided is complete and accurate.
+      </font></td></tr></
+  
+  <tr><td height="30"></td></tr>
+  <tr>
+    <td align="center">
+      
+     
+        <a href="peta5L.html">
+          <input type="button" value="Submit Reservation"></a>
+      &nbsp&nbsp
+      <input type="reset" value="Clear Form">
+      <br><br>
+      
+       <a href="peta3L.html">
+         <input type="button" value="Back to Places"> </a>
+    </td></tr>
+  
+  <tr><td height="30"></td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+<hr color="purple" width="500">
+<center><b>Vianca R. Mendoza</b></center>
+<center>11 - LATORENA</center>
+
+</body>
+</html>
+  
+  
+  
